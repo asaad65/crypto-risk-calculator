@@ -2,6 +2,9 @@ import './globals.css';
 export const metadata = {
   title: 'Crypto Position Size & Risk Calculator',
   description: 'Free real-time risk management and position size calculator for crypto traders.',
+  verification: {
+    google: 'DUrq_6VOZkPWPNizygNJZDdp19TyZ0LbtNk8rOjqYHA', // الصق الرمز هنا (وتأكد أنه لا ينتهي بـ .html)
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -17,6 +20,8 @@ export default function RootLayout({ children }) {
       'priceCurrency': 'USD'
     }
   };
+
+
 
   return (
     <html lang="en">
